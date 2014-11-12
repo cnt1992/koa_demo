@@ -1,0 +1,39 @@
+{
+  "name": "koa-demo",
+  "description": "Examples using Koa",
+  "version": "0.0.1",
+  "repository": "https://github.com/cnt1992/koa_demo",
+  "dependencies": {
+    "co": "^3.0.6",
+    "co-body": "0.0.2",
+    "co-busboy": "^1.0.2",
+    "co-fs": "^1.2.0",
+    "co-views": "^0.2.0",
+    "koa": "^0.8.0",
+    "koa-basic-auth": "^1.1.1",
+    "koa-compose": "^2.3.0",
+    "koa-csrf": "^2.1.1",
+    "koa-less": "0.0.3",
+    "koa-logger": "^1.2.1",
+    "koa-route": "^1.1.4",
+    "koa-session": "^2.0.0",
+    "koa-static": "^1.4.7",
+    "raw-body": "^1.2.1",
+    "save-to": "^1.0.3",
+    "streaming-json-stringify": "^1.0.0",
+    "swig": "*",
+    "then-jade": "^2.2.1"
+  },
+  "devDependencies": {
+    "co": "*",
+    "mocha": "*",
+    "should": "^3.3.2",
+    "supertest": "*"
+  },
+  "scripts": {
+    "app": "node app"
+  },
+  "engines": {
+    "node": ">= 11.3"
+  }
+}
